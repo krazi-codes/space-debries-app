@@ -4,7 +4,7 @@ Space Debris Mitigation Platform
 Developed by Issam Ahmad · Hackathon Build 2025
 
 Overview
-DEBRISWATCH is a real-time space debris tracking and mitigation decision-support platform. It visualizes active orbital debris, assesses collision risk, and recommends removal strategies — helping operators prioritize the most dangerous objects before a Kessler cascade event occurs.
+DEBRISWATCH is a real-time space debris tracking and mitigation decision-support platform. It visualizes active orbital debris, assesses collision risk, and recommends removal strategies helping operators prioritize the most dangerous objects before a Kessler cascade event occurs.
 The app is built entirely in React with no external dependencies beyond standard libraries, making it easy to run anywhere.
 
 Features
@@ -53,12 +53,6 @@ LevelCollision ProbabilityActionCRITICAL> 2.5%Immediate removalHIGH1.0% – 2.5%
 Background
 Space debris is one of the most pressing long-term threats to orbital infrastructure. As of 2025, there are an estimated 36,500+ objects larger than 10 cm tracked by space agencies, with millions of smaller fragments untracked. A single high-energy collision can generate thousands of new debris fragments — the self-sustaining chain reaction known as Kessler Syndrome — potentially rendering entire orbital shells unusable for decades.
 DEBRISWATCH was built to demonstrate how a unified decision-support interface could help operators triage removal priorities and select the most cost-effective intervention strategy.
-
-Project Structure
-debriswatch/
-├── space-debris-app.jsx   # Full application (single file)
-├── README.md
-└── debriswatch_demo.mp4   # Demo video
 
 License
 MIT License — free to use, modify, and distribute.
