@@ -31,20 +31,6 @@ Prerequisites
 Node.js 18+
 npm or yarn
 
-Installation
-bashgit clone https://github.com/issamahmad/debriswatch.git
-cd debriswatch
-npm install
-npm run dev
-The app will be available at http://localhost:5173.
-Running as a standalone React component
-The entire app lives in a single file (space-debris-app.jsx) with no required props. Drop it into any Vite or Create React App project and it will run out of the box.
-jsximport App from './space-debris-app';
-
-export default function Root() {
-  return <App />;
-}
-
 Tech Stack
 LayerTechnologyFrameworkReact 18 (hooks)RenderingHTML5 Canvas APIStylingInline CSS + CSS-in-JSFontsSpace Mono, Orbitron (Google Fonts)AnimationrequestAnimationFrame, CSS keyframesDataSeeded deterministic simulation
 No backend required. All orbital data is generated client-side using a seeded pseudo-random model based on real debris catalogs (TLE-inspired parameters).
